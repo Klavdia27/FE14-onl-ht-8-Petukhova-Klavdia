@@ -13,20 +13,20 @@
   <title>ActiveBox</title>
 </head>
 <body>
-
+  
   <section class="header">
-
+    
     <div class="container container-nav">
         <a href="#" class="logo-nav">
           <img src="./img/icon/logo.png" alt="icon: logo" class="logo">
         </a>
-        <div class="row-nav">
+        <div class="row-nav" id="menu">
           <ul class="nav-items">
-            <li class="nav-item">feautures</li>
-            <li class="nav-item">works</li>
-            <li class="nav-item">our team</li>
-            <li class="nav-item">testimonials</li>
-            <li class="nav-item">download</li>
+            <a href="#feautures"><feautures class="nav-item">feautures</li></a>
+            <a href="#works"><li class="nav-item">works</li></a>
+            <a href="#team"><li class="nav-item">our team</li></a>
+            <a href="#slaider"><li class="nav-item">testimonials</li></a>
+            <a href="#download"><li class="nav-item">download</li></a>
           </ul>
         </div>
         <div class="nav-menu">menu</div>
@@ -41,7 +41,8 @@
 
   </section>
 
-  <section class="features">
+  <section class="features" id="feautures">
+    
     <div class="container container-features">
       <ul class="ft-row">
         <li class="ft-item" >
@@ -78,7 +79,7 @@
    </div>
   </section>
 
-  <section class="works">
+  <section class="works" id="works">
     <div class="works-row">
       <div class="work-item"><img src="./img/portfolio/img1.jpeg" alt="image1" class="work-item__img">
         <div class="work-item__text">
@@ -131,7 +132,7 @@
     </div>
   </section>
 
-  <section class="team">
+  <section class="team" id="team">
     <div class="container container-team">
       <ul class="team-row">
         <li class="team-item">
@@ -190,7 +191,7 @@
     </div>
   </section>
 
-  <section class="slaider-row">
+  <section class="slaider-row" id="slaider">
     <div class="container-slaider">
       
         <div class="left-item">
@@ -260,7 +261,7 @@
      </div>
   </section>
 
-  <section class="download">
+  <section class="download" id="download">
     <div class="container container-download">
       <h2 class="download-title">Are You Ready to Start? Download Now For Free!</h2>
       <div class="download-subtitle">Fusce dapibus, tellus ac cursus commodo</div>
@@ -303,14 +304,9 @@
     </div>
   </section>
 
-
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/script.js"></script>
-
-
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
 
