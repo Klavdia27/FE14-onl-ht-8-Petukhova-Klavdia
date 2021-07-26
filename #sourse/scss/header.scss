@@ -1,0 +1,94 @@
+.container-header {
+  padding: 155px 15px;
+  color: $white;
+  @media (max-width: 1000px) {
+    //padding: 100px 15px;
+  }
+  @media (max-width: 494px) {
+    //padding: 50px 15px;
+  }
+}
+.header-title {
+  font-size: 65px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 875px / 1140px * 100%;
+  margin: auto;
+  margin-bottom: 41px;
+  @media (max-width: 1168px) {
+    font-size: 54px;
+    width: 90%;
+  }
+  @media (max-width: 988px) {
+    font-size: 38px;
+  }
+  @media (max-width: 860px) {
+    font-size: 32px;
+  }
+  @media (max-width: 590px) {
+    font-size: 27px;
+  }
+  @media (max-width: 494px) {
+    font-size: 24px;
+  }
+  @media (max-width: 348px) {
+    font-size: 20px;
+  }
+}
+.header-discr {
+  margin: auto;
+  text-align: center;
+  max-width: 917px / 1140px * 100%;
+  font-size: 22px;
+  margin-bottom: 76px;
+  font-family: "Open Sans";
+  @media (max-width: 1168px) {
+    font-size: 20px;
+    width: 70%;
+  }
+  @media (max-width: 988px) {
+    font-size: 16px;  
+  }
+  @media (max-width: 860px) {
+    font-size: 14px; 
+    margin-bottom: 50px;
+  }
+  @media (max-width: 640px) {
+    font-size: 12px; 
+  }
+  @media (max-width: 590px) {
+    font-size: 10px;
+    margin-bottom: 40px; 
+  }
+  @media (max-width: 348px) {
+    font-size: 8px;
+    
+  }
+}
+.header-button {
+  text-transform: uppercase;
+  line-height: 47px;
+  display: block;
+  margin: auto;
+  padding: 0 50px;
+  background-color: $red;
+  border: none;
+  color: $white;
+  @media (max-width: 1168px) {
+    line-height: 40px;
+    padding: 0 40px;
+  }
+  @media (max-width: 860px) {
+    line-height: 30px;
+    padding: 0 30px;
+  }
+  @media (max-width: 590px) {
+    line-height: 30px;
+    padding: 0 30px;
+  }
+  @media (max-width: 348px) {
+    line-height: 30px;
+    padding: 0 30px;
+  }
+}

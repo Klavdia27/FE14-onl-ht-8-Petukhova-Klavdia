@@ -1,0 +1,11 @@
+@include max-screen(1600) {
+  .slick-dots {
+    
+    top: 80%;
+    
+  }
+  .container-header {
+    
+    color: $red;
+  }
+} 

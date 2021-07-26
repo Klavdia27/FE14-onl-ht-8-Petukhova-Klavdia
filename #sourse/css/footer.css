@@ -1,0 +1,14 @@
+.footer {
+  padding: 30px 0;
+  background-color: #313454;
+}
+
+.container-footer {
+  text-align: center;
+  display: flex;
+}
+
+.footer-text {
+  margin: auto;
+  max-width: 322px;
+}

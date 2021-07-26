@@ -1,0 +1,25 @@
+.footer {
+  padding: 30px 0;
+  background-color: #313454;
+  @media (max-width: 523px) {
+    font-size: 12px;
+    padding: 15px 0;
+  }
+}
+.container-footer {
+  text-align: center;
+  display: flex;
+}
+.footer-text {
+  margin: auto;
+  max-width: 326px;
+  color: $clfooter;
+  font-family: 'Open Sans';
+}
+.span-footer {
+  color: $white;
+}
+.fa-heart {
+  color: $red;
+  font-size: 12px;
+}

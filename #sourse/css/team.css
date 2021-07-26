@@ -1,0 +1,13 @@
+.team-item__foto {
+  width: 270px;
+}
+
+.team-item__name {
+  font-size: 22px;
+  font-family: "Raleway";
+  margin-bottom: 16px;
+}
+
+.team-item__job {
+  margin-bottom: 29px;
+}

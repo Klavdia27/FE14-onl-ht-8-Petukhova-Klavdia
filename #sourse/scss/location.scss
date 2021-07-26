@@ -1,0 +1,61 @@
+.location {
+  padding: 72px 15px;
+  background-color: #3A3E64;
+  @media (max-width: 523px) {
+    padding: 40px 15px 0 15px;
+  }
+}
+.container-location {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 523px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.location-item {
+  text-align: center;
+  max-width: 33.3%;
+  width: 33.3%;
+  margin: 0 15px;
+  @media (max-width: 523px) {
+    margin-bottom: 40px;
+    min-width: 70%;
+  }
+}
+.location-item__title {
+  text-transform: uppercase;
+  color: $white;
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.location-social {
+  display: flex;
+}
+.location-social__icon {
+  margin-right: 6px;
+  border: 1px solid $white;
+  color: $white;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.location-item__desrc{
+  max-width: 329px;
+  color: $white;
+  font-family: 'Raleway';
+  font-size: 14px;
+  opacity: 0.5;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+
+}
+.location-item__adress {
+  max-width: 148px;
+}

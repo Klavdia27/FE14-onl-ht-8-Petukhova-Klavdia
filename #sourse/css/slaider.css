@@ -1,0 +1,27 @@
+.slaider-row {
+  padding: 0;
+}
+
+.container-slaider {
+  display: flex;
+}
+
+.left-item {
+  max-width: 50%;
+}
+
+.right-item {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.right-content {
+  max-width: 50%;
+}
+
+.right-item__text {
+  font-size: 36px;
+}
