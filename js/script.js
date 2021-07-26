@@ -5,7 +5,7 @@ $(document).ready(function(){
     adaptiveHeight: true,
     slidesToShow: 2,
     slidesToScroll: 2,
-    speed: 100,
+    speed: 50,
 });
 });
 
@@ -16,7 +16,7 @@ $(document).ready(function(){
     adaptiveHeight: true,
     slidesToShow: 2,
     slidesToScroll: 2,
-    speed: 100,
+    speed: 50,
     
 });
 });
